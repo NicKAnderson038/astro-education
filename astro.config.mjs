@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'nickanderson038.github.io',
-  // base: '/astro-education',
+  site: 'https://nickanderson038.github.io',
+  base: '/astro-education',
 });
