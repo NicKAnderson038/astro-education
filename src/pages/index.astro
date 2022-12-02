@@ -1,5 +1,8 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro';
+import image_01 from '../assets/img/01.jpeg'
+import image_02 from '../assets/img/02.jpeg'
+import image_03 from '../assets/img/03.jpeg'
 ---
 
 <DefaultLayout title="Home">
@@ -29,7 +32,8 @@ import DefaultLayout from '../layouts/DefaultLayout.astro';
 			<div class="row">
 				<div class="container-card">
 					<div class="p-5">
-						<img class="rounded-full" src="http://www.cryptowidget.org/img/01.jpg" alt="" />
+						<img class="rounded-full" src={image_01} alt="Image of coins">
+						<!-- <img class="rounded-full" src="http://www.cryptowidget.org/img/01.jpg" alt="" /> -->
 					</div>
 				</div>
 				<div class="container-card">
@@ -60,7 +64,8 @@ import DefaultLayout from '../layouts/DefaultLayout.astro';
 				</div>
 				<div class="container-card">
 					<div class="p-5">
-						<img class="rounded-full" src="http://www.cryptowidget.org/img/02.jpg" alt="" />
+						<img class="rounded-full" src={image_02} alt="Guitar player full" />
+						<!-- <img class="rounded-full" src="http://www.cryptowidget.org/img/02.jpg" alt="" /> -->
 					</div>
 				</div>
 				<!-- <div class="container-card">
@@ -81,7 +86,8 @@ import DefaultLayout from '../layouts/DefaultLayout.astro';
 			<div class="row">
 				<div class="container-card">
 					<div class="p-5">
-						<img class="rounded-full" src="http://www.cryptowidget.org/img/03.jpg" alt="" />
+						<img class="rounded-full" src={image_03} alt="Guitar player closeup" />
+						<!-- <img class="rounded-full" src="http://www.cryptowidget.org/img/03.jpg" alt="" /> -->
 					</div>
 				</div>
 				<div class="container-card">
